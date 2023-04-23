@@ -1,0 +1,146 @@
+body{
+    
+    background-image: url("tła/harryshouse.jpg");
+    background-size:100%;
+    background-repeat:repeat;
+    background-position: center top;
+}
+
+.background{
+  background-color: rgb(250, 247, 232,0.6);
+}
+
+#door{
+  width: 30px;
+}
+
+#sign_in{
+  position:absolute; 
+  right:15px;
+}
+
+#bc{
+  padding:0%
+}
+
+#navbar{
+  background-color:rgb(255, 255, 241);
+  width: 100%;
+}
+
+#bcenter{
+  width: 86%;
+  position: relative;
+  left:7%;
+}
+
+
+.maindivcolor{
+  background-color:rgb(250, 247, 232,0.0)!important;
+}
+
+.streambtn{
+  width:30px;
+  position: absolute;
+  float: right;
+
+}
+
+
+#my_canvas{
+  border: 2px solid rgb(125, 118, 87);
+}
+
+
+
+.link{
+  color:rgb(125, 118, 87)!important;
+}
+
+.link:hover{
+  color: rgb(105, 100, 78)!important;
+}
+
+.btncolor{
+  color: rgb(125, 118, 87)!important;
+  border-color: rgb(125, 118, 87)!important;
+}
+
+.btncolor:hover{
+  background-color:rgb(125, 118, 87)!important;
+  color:rgb(250, 247, 232)!important;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 30px;
+
+}
+
+.gimg{
+  border: solid 3px rgba(255,255,255, 0.9);
+cursor: pointer;
+margin: 30px;
+max-height: 250px;
+max-width: 250px;
+overflow: hidden;
+transform: scale(1);
+transition:  transform 0.3s;
+}
+
+.gimg:hover {
+transform: scale(1.1);
+}
+
+.gimg img{
+  height: 100%; 
+  width: 100%;
+  object-fit: cover;
+}
+
+.popup{
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  position: fixed;
+  width: 100vw;
+
+}
+
+.popup.hidden{
+  display:none ;
+}
+
+.caption{
+  color:wheat;
+  font-size: 20px;
+  position:absolute;
+  bottom: 3%;
+  text-align: center;
+}
+
+.popup_img{
+  max-height: 80%;
+  max-width: 80%;
+}
+.popup_close{
+  background-color:transparent ;
+  border: none;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 128px;
+  top: 5%;
+  right: 10%;
+  position:fixed;
+
+}
+
+
